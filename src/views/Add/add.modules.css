@@ -1,0 +1,108 @@
+.body-add {
+    max-width: 540px;
+    margin: 10px;
+}
+
+.add-back {
+    width: 100%;
+}
+
+.add-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid rgb(8, 111, 145);
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    height: 120px;
+    color: black;
+    font-size: large;
+}
+
+.add-travel-pictures-input {
+    /* display: flex; */
+    width: 96%;
+    border: 1px solid rgb(8, 111, 145);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.add-travel-pictures-img {
+    width: 96%;
+    border: 1px solid rgb(8, 111, 145);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.add-travel-tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid rgb(8, 111, 145);
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    height: 50px;
+    width: 96%;
+    color: black;
+    font-size: large;
+    background-color: transparent;
+}
+
+.add-travel-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid rgb(8, 111, 145);
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    height: 400px;
+    width: 96%;
+    color: black;
+    font-size: large;
+    background-color: transparent;
+}
+
+.add-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px dashed rgb(8, 111, 145);
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    height: 20px;
+    color: black;
+    font-size: large;
+}
+
+.post-button {
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px 0; */
+    height: 50px;
+    background-color: #69b2f7;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.imageuploader{
+    width: 100px; /* 设置头像宽度 */
+    height: 100px; /* 设置头像高度 */
+    border-radius: 20px; /* 设置为50%以创建圆形头像 */
+    object-fit: cover; /* 保持图片比例，同时填充容器 */
+    margin: 2px;
+}
+
+/* 游记标题、内容输入框样式 */
+.titleInput{
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+}

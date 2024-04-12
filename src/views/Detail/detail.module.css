@@ -1,0 +1,60 @@
+.detailNavigate {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 垂直居中 */
+    border: 1px solid rgb(7, 130, 174);
+    border-radius: 20px;
+    height: 40px;
+    margin: 10px 0;
+    font-size: large;
+}
+
+.detailusershow{
+    display: flex; /* 启用Flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.detailuseravatarshow{
+    /* border: 1px solid black; */
+    width: 30px; /* 设置头像宽度 */
+    height: 30px; /* 设置头像高度 */
+    border-radius: 50%; /* 设置为50%以创建圆形头像 */
+    object-fit: cover; /* 保持图片比例，同时填充容器 */
+    
+}
+
+.detailPicture {
+    border: 1px solid rgb(7, 130, 174);
+    border-radius: 20px;
+    width: 96%;
+    font-size: large;
+    padding: 10px;
+    /* margin: 10px 0; */
+}
+
+.detailTitle{
+    border: 1px solid rgb(7, 130, 174);
+    border-radius: 20px;
+    /* height: 50px; */
+    font-size: large;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.detailContent{
+    border: 1px solid rgb(7, 130, 174);
+    border-radius: 20px;
+    /* height: 400px; */
+    font-size: large;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.detailExtras{
+    border: 1px solid rgb(7, 130, 174);
+    border-radius: 20px;
+    height: 50px;
+    font-size: large;
+    padding: 10px;
+    margin: 10px 0;
+}

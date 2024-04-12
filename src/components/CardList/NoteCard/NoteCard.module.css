@@ -1,0 +1,57 @@
+.noteCardBox {
+    width: 100%;
+    height: fit-content;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  .noteCardImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .noteCardContent {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .noteCardTitle {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .noteCardFooter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .noteCardUser {
+    display: flex;
+    align-items: center;
+  }
+  .noteCardUserAvatar {
+    width: 30px;
+    height: 30px;
+  }
+  .noteCardUserAvatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .noteCardUserName {
+    margin-left: 5px;
+    font-size: 3vw;
+  }
+  .noteCardLikes {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  .noteCardLikeCnt {
+    margin-left: 5px;
+    font-size: 3vw;
+  }
