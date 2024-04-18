@@ -8,7 +8,7 @@ export const searchTrips = async (query) => {
     const response = await axios.post(API_URL, {
       method: 'POST',
       headers: {
-        'Content-Type': 'userid',
+        'Content-Type': 'searchKey',
       },
       body: query,
     });
